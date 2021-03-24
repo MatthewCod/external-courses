@@ -1,14 +1,15 @@
-function setFirstLettercapital(string){
-    let mass = [];  
-    for (let index = 0; index < string.length; index++) {
-        
-        mass[index] = string[index];
-        if (mass[index - 1] === " " || mass[index - 1] === undefined ) {
-            mass[index] = mass[index].toUpperCase();
-        }
-        
+function setFirstLettercapital(string) {
+  let arrayFromString = [];
+  for (let index = 0; index < string.length; index++) {
+    arrayFromString[index] = string[index];
+    if (
+      arrayFromString[index - 1] === " " ||
+      arrayFromString[index - 1] === undefined
+    ) {
+      arrayFromString[index] = arrayFromString[index].toUpperCase();
     }
-    return mass.join("");
+  }
+  return arrayFromString.join("");
 }
 
 module.exports = setFirstLettercapital;

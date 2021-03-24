@@ -1,14 +1,12 @@
-function flipString (string){
-    let mass = string.split("");
-    let flipedMass = [];
-    console.log (mass);
-    for (let index = 0; index <= mass.length; index++) {
-        flipedMass[index] = mass[mass.length - index];
-    }
+function flipString(string) {
+  let arrayFromString = string.split("");
+  let flipedarrayFromString = [];
+  for (let index = 0; index <= arrayFromString.length; index++) {
+    flipedarrayFromString[index] =
+      arrayFromString[arrayFromString.length - index];
+  }
 
-    return flipedMass;
+  return flipedarrayFromString.join("");
 }
 
-//console.log(flipString('12345'));
-
-module.exports = addNewWord;
+module.exports = flipString;

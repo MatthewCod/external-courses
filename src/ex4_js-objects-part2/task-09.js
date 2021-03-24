@@ -1,10 +1,7 @@
-function addNewWord (string, substring,number) {
-     
-     let mass = string.split(" ");
-    mass.splice(number + 1, 0, substring );
-     return mass.join(' ');
-
+function addNewWord(string, substring, number) {
+  let arrayFromString = string.split(" ");
+  arrayFromString.splice(number + 1, 0, substring);
+  return arrayFromString.join(" ");
 }
-console.log(addNewWord('I am cool', 'very',1));
 
 module.exports = addNewWord;

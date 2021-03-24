@@ -1,22 +1,15 @@
-
-    function setCamelCase(string){
-        let mass = [];  
-        for (let index = 0; index < string.length; index++) {
-            
-            mass[index] = string[index];
-            if (mass[index - 1] === " " ) {
-                mass[index] = mass[index].toUpperCase();
- //               console.log(string[index].toUpperCase());   
-            } else if (mass[index - 1] !== " " ){
-                mass[index] = mass[index].toLowerCase();
-            }
-            mass[0] = mass[0].toLowerCase();
-            
-        }
- //       console.log(string);
-        return mass.join('').split(' ').join('');
+function setCamelCase(string) {
+  let arrayFromString = [];
+  for (let index = 0; index < string.length; index++) {
+    arrayFromString[index] = string[index];
+    if (arrayFromString[index - 1] === " ") {
+      arrayFromString[index] = arrayFromString[index].toUpperCase();
+    } else if (arrayFromString[index - 1] !== " ") {
+      arrayFromString[index] = arrayFromString[index].toLowerCase();
     }
-    
-    console.log(setCamelCase('User Object'));
+    arrayFromString[0] = arrayFromString[0].toLowerCase();
+  }
+  return arrayFromString.join("").split(" ").join("");
+}
 
- module.exports = setCamelCase;
+module.exports = setCamelCase;
