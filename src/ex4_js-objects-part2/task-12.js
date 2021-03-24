@@ -4,4 +4,6 @@ function roundToThirdSymbol(firstNumber,secondNumber){
     return result;
 }
 
-console.log(roundToThirdSymbol(123.13164, 1));
+//console.log(roundToThirdSymbol(123.13164, 1));
+
+module.exports = roundToThirdSymbol;
