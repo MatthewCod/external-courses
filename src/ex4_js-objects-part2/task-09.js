@@ -5,3 +5,4 @@ function addNewWord(string, substring, number) {
 }
 
 module.exports = addNewWord;
+ 

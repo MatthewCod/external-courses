@@ -4,3 +4,4 @@ function createEmptyObject() {
 }
 
 module.exports = createEmptyObject;
+ 

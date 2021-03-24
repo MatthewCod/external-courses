@@ -13,3 +13,4 @@ function deliteFirstAndLastSpace(string) {
   return string;
 }
 module.exports = deliteFirstAndLastSpace;
+ 

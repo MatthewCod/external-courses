@@ -13,3 +13,4 @@ function setCamelCase(string) {
 }
 
 module.exports = setCamelCase;
+ 

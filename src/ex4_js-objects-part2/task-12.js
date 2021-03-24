@@ -5,3 +5,4 @@ function roundToThirdSymbol(firstNumber, secondNumber) {
 }
 
 module.exports = roundToThirdSymbol;
+ 

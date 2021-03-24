@@ -3,3 +3,4 @@ function setCapabilities(string) {
   return newString;
 }
 module.exports = setCapabilities;
+ 
