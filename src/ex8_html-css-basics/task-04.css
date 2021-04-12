@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+
+div.container {
+   font-family: 'Roboto', sans-serif;
+   background-color: #D7BA80;
+}
+
+div.list {
+    background-color:#A19170; 
+}
+
+div.ordered-list {
+    background-color:#EBD3A3; 
+}
+
+div.unordered-list {
+    background-color:#EBD9B6; 
+}
+
+
+div.description-List {
+    background-color:#8B6B2A;
+    
+}
+.move-right{
+    text-indent: 30px;
+}
+
+
+div.nested-list {
+    background-color:#A19170; 
+
+}
+li.subitems{
+    list-style-type: circle;
+    margin-left: 30px;
+}
+li.subSubitems{
+    list-style-type: square;
+    margin-left: 60px;
+}
+
+div.list-with-links {
+    background-color:#A19170; 
+}
+
+
+div.paragraphs {
+    background-image: url(Sand-dunes-hot-White-Desert-Egypt_1920x1200.jpg); 
+}
+
+
+
+div.table {
+    background-color:#A19170; 
+}
+
+div.image {
+    background-color:#A19170; 
+    
+}
+
+div.pre-tag {
+    background-color:#A19170; 
+}
+hr {
+    height: 1px;
+    background-color: #000;
+}

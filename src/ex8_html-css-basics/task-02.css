@@ -1,0 +1,22 @@
+.green-bg {
+    background-color: forestgreen;
+}
+img {
+  width: 400px;
+  height: 150px;
+}
+.subitems {
+
+}
+
+div.move-right {
+    margin-left: 35px;
+  }
+  li.subitems {
+    list-style-type: circle;
+    margin-left: 35px;
+  }
+  li.subSubitems {
+    list-style-type: square;
+    margin-left: 70px;
+  }

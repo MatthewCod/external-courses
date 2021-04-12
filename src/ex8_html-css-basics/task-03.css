@@ -1,0 +1,23 @@
+div.first {
+  border-width: 1px;
+  border-color: rgb(190, 190, 190);
+  border-style: solid;
+  margin: 20px;
+}
+
+div.second {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 2px red;
+  margin: 20px;
+}
+
+div.third {
+
+  padding: 20px;
+  outline: 1px dashed #555;
+  background: #fff;
+  outline-offset: -10px;
+  color: #000;
+  margin: 20px;
+}
