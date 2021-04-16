@@ -1,0 +1,45 @@
+body {
+  padding: 30px;
+}
+header {
+  background: lightblue;
+}
+section {
+  background: lightgreen;
+
+}
+article {
+  background: white;
+  margin: 0 0 1rem 0;
+}
+aside {
+  background: pink;
+
+}
+header, article, section, .module {
+  padding: 1rem;
+}
+main {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows:  0.1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "header header"
+    "section aside";
+}
+
+header { grid-area: header; }
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "arc1"
+    "arc2";
+  grid-area: section;
+}
+.arc1 { grid-area: arc1; }
+.arc2 { grid-area: arc2; }
+aside { grid-area: aside; }
