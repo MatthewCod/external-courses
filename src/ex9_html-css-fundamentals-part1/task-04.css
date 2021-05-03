@@ -1,11 +1,12 @@
-.block1 {
+.block-pseudo-classes {
     width: 400px;
     height: 100px;
     background-color: #60B88D;
     position: relative;
     margin: 20px;
 }
-.block1::before {
+
+.block-pseudo-classes::before {
     content: '';
     width: 400px;
     height: 100px;
@@ -15,7 +16,8 @@
     left: 10px;
     z-index: -1;
 }
-.block1::after {
+
+.block-pseudo-classes::after {
     content: '';
     width: 400px;
     height: 100px;
@@ -25,7 +27,8 @@
     left: 20px;
     z-index: -2;
 }
-.block2 {
+
+.block-box-shadow {
     width: 400px;
     height: 100px;
     background-color: #60B88D;
@@ -33,20 +36,22 @@
 }
 
 
-div.block3 {
+div.block-position-wrapper {
     margin: 40px;
     width: 500px;
     height: 100px;
     position: absolute;
 }
-.block3-1 {
+
+.block-position-first-layer {
     position: absolute;
     background-color: #BFE3D1;
     margin: 40px;
     width: 400px;
     height: 100px;
 }
-.block3-2 {
+
+.block-position-second-layer  {
     position: relative;
     background-color: #90CDAF;
     top: -10px;
@@ -54,7 +59,8 @@ div.block3 {
     width: 400px;
     height: 100px;
 }
-.block3-3 {
+
+.block-position-third-layer {
     position: relative;
     background-color: #60B88D;
     top: -10px;
