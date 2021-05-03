@@ -20,7 +20,7 @@ a {
 	position: relative;
 }
 
-.case {
+.first-grey-layer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -35,7 +35,7 @@ a {
 
 }
 
-.case2 {
+.second-gradient-layer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -54,7 +54,7 @@ a {
 	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.6);
 }
 
-.case3 {
+.text-and-stars-wrapper {
 
 	display: flex;
 	justify-content: space-evenly;
