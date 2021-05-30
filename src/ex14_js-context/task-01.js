@@ -11,7 +11,6 @@ let calculator = {
         if (number !== undefined) {
             calculator.result = +calculator.result + +number;
         }
-
         return this;
     },
 
@@ -19,7 +18,6 @@ let calculator = {
         if (number !== undefined) {
             calculator.result = +calculator.result - +number;
         }
-
         return this;
     },
 
@@ -27,7 +25,6 @@ let calculator = {
         if (number !== undefined) {
             calculator.result = +calculator.result / +number;
         }
-
         return this;
     },
 
@@ -35,7 +32,6 @@ let calculator = {
         if (number !== undefined) {
             calculator.result = +calculator.result * +number;
         }
-
         return this;
     },
 
@@ -51,7 +47,6 @@ let calculator = {
     fetchData: function (callback) {
         setTimeout(callback, 5000, state = 500);
         this.result = state;
-
         return this;
     }
 };
