@@ -1,0 +1,161 @@
+.louder {
+    height: 50px;
+    width: 50px;
+    border: 5px solid rgba(150, 150, 150, 0.2);
+    border-radius: 50%;
+    border-top-color: rgba(150, 150, 150);
+    animation: rotate 1s 0s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ball-wrapper {
+    margin: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(121, 121, 121);
+}
+
+.frame {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+}
+
+.block {
+    height: 50px;
+    width: 50px;
+    background-color: royalblue;
+}
+
+.ball {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%;
+    animation: move-ball 3s linear infinite;
+}
+
+@keyframes move-ball {
+    0% {
+        bottom: 50px;
+        left: 0;
+    }
+
+    25% {
+        bottom: 150px;
+        left: 100px;
+    }
+
+    50% {
+        bottom: 50px;
+        left: 250px;
+    }
+
+    75% {
+        bottom: 150px;
+        left: 100px;
+    }
+
+    100% {
+        bottom: 50px;
+        left: 0;
+    }
+}
+
+@keyframes move-left {
+    0% {
+        bottom: 100%;
+    }
+
+    50% {
+        bottom: 0;
+    }
+
+    100% {
+        bottom: 100%;
+    }
+}
+
+.infiniti-animation {
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
+    background-position: 0 0;
+    animation: firstStep 6s linear infinite;
+}
+
+@keyframes firstStep {
+    0% {
+        border-radius: 50%;
+        background-position: 0 0;
+        transform: skewX(0deg);
+    }
+
+    10% {
+        border-radius: 0;
+        background-position: 0 0;
+    }
+
+    20% {
+        background-position: 0 200px;
+        transform: skewX(0deg);
+        height: 300px;
+        width: 300px;
+    }
+
+    30% {
+        background-position: 0 200px;
+        transform: skewX(20deg);
+        height: 500px;
+        width: 500px;
+    }
+
+    40% {
+        background-position: 0 200px;
+        transform: skewX(0deg);
+        height: 300px;
+        width: 300px;
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(360deg);
+    }
+
+    70% {
+        transform: rotate(0deg);
+        background-position: 0 200px;
+    }
+
+    80% {
+        background-position: 0 0px;
+    }
+
+    90% {
+        border-radius: 0;
+    }
+
+    100% {
+        border-radius: 50%;
+    }
+}
