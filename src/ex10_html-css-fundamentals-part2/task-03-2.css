@@ -1,0 +1,19 @@
+.row:nth-child(even)  {
+    background-color: #f2f6fa;
+}
+
+.row:nth-child(odd) {
+    background-color: #e3eaf3;
+}
+
+.row:hover {
+    background-color: #e2e5e9;
+}
+
+.name {
+    text-transform: capitalize;
+}
+
+.title {
+    text-transform: uppercase;
+}

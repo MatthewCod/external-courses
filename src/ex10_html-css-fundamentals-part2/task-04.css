@@ -1,0 +1,97 @@
+/* body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(201, 69, 69);
+    margin: 0;
+}
+header{
+    height: 108px;
+    width: 100%;
+    background-color: rgb(99, 92, 92);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper{
+    height: 86px;
+    width: 401px;
+    background-image: url(content/logo.png);
+}
+
+.logo{
+    content: '';
+    background-image:url(content/logo@1X.png);
+    height: 40px;
+    width: 80px;
+}
+
+.contacts{
+    width: 231px;
+    height: 107px;
+    background-image: url(content/contact@1X.png);
+}
+
+main{
+    height: 883px;
+    background-image: url(content/iback.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain; 
+    width: 100%;
+    position: relative;
+}
+
+.main-content{
+    position: absolute;
+    height: 56%;
+    width: 48%;
+    background-color:brown;
+    margin: 30% 20% 6% 30%;
+}
+.start-greeting{}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:chartreuse;
+} */
+
+
+#container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: rgb(116, 36, 36);
+}
+#dummy {
+    margin-top: 44.5%;
+}
+#element {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+    background-image: url(content/iback.png);
+    padding: 20% 20%;
+
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain; 
+
+}
+
+.wrapper{
+    display: block;
+    height: 50%;
+    width: 50%;
+    background-color:crimson;
+    margin-top: 44.5%;
+}
